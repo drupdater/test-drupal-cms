@@ -74,7 +74,7 @@ Two findings worth keeping in mind if you rebuild this repository:
 Only do this if the fixture has genuinely rotted (for example, the constraint
 floor stops installing on a supported PHP version).
 
-Run these inside a drupdater image (`ghcr.io/drupdater/drupdater-php8.3`) so PHP
+Run these inside a drupdater image (`ghcr.io/drupdater/drupdater-php8.4`) so PHP
 and the composer environment match CI. Outside it, as root, export
 `COMPOSER_ALLOW_SUPERUSER=1` first -- without it composer silently disables
 every plugin, `composer/installers` never places the Drupal packages, and you
@@ -87,6 +87,12 @@ cd test-drupal-cms
 composer config --no-plugins allow-plugins.cweagans/composer-patches true
 composer config --no-plugins allow-plugins.ergebnis/composer-normalize true
 composer config --no-plugins allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
+
+# Pin the platform, or the lock ends up resolved for whatever PHP you happen to
+# be running. Resolving on 8.4 without this pulled in Symfony 8
+# (symfony/css-selector requires >=8.4.1) and the lock then failed drupdater's
+# preflight on any earlier PHP.
+composer config platform.php 8.4.1
 composer require --no-update drush/drush:^13.7 cweagans/composer-patches:^1.7 drupal/locale_deploy:^1
 composer require --no-update --dev ergebnis/composer-normalize:^2
 composer update --with-all-dependencies
