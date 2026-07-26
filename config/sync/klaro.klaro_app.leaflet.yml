@@ -1,0 +1,28 @@
+uuid: 0ee3ceb7-87da-4111-83c4-52b2cef79c16
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: PSZnwbYqbkvdCktfGxk0ylt8X9_rJAj2eF5anw2o0ng
+id: leaflet
+label: 'External Map (Leaflet)'
+description: 'This service loads external maps via Leaflet. See privacy policy for more information about the chosen map provider.'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: ''
+privacy_policy_url: ''
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts: {  }
+wrapper_identifier: {  }
+attachments: {  }
+weight: 0

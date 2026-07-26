@@ -1,0 +1,49 @@
+# Composer-managed code. drupdater runs `composer install` itself as its third
+# phase, so none of this belongs in the repository.
+/vendor
+/recipes
+/web/core
+/web/libraries
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+/drush/Commands/contrib
+
+# Scaffolded files (index.php, .htaccess, autoload.php, robots.txt, ...) are
+# deliberately NOT ignored: a core update rewrites some of them, and drupdater
+# committing that diff is part of what this repository tests.
+
+# Site-specific files.
+/web/sites/*/services*.yml
+/web/sites/*/private
+
+# web/sites/default/settings.php is COMMITTED here, unlike in a normal Drupal
+# project: drupdater's preflight requires it to exist and its installer appends
+# to it rather than creating it. Do not add an ignore rule for it.
+
+# Ignore the files directory's CONTENTS rather than the directory itself -- a
+# rule that excludes a directory makes every negation inside it a no-op, and the
+# translations directory below has to survive.
+/web/sites/*/files/*
+!/web/sites/default/files/translations
+/web/sites/default/files/translations/*
+!/web/sites/default/files/translations/.gitkeep
+
+# Local databases. drupdater writes <site>.sqlite beside the checkout rather
+# than inside it, but a stray one from a manual run should never be committed.
+*.sqlite
+.ht.*.sqlite
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

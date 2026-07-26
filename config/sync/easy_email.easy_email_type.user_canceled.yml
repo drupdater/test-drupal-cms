@@ -1,0 +1,31 @@
+uuid: 1a5bb2b7-b5ea-4bad-8c5a-4d546b9acc55
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vVfOxA0PSwEYE7YBENlqL2dU6CEeZ_uGmDi7HOTHzH8
+label: 'User: Account Canceled'
+id: user_canceled
+key: ''
+recipient: {  }
+cc: {  }
+bcc: {  }
+fromName: ''
+fromAddress: ''
+replyToAddress: ''
+subject: 'Account details for [easy_email:recipient_uid:0:entity:display-name] at [site:name] (canceled)'
+inboxPreview: ''
+bodyHtml:
+  value: '<p>[easy_email:recipient_uid:0:entity:display-name],</p><p>Your account on [site:name] has been canceled.</p><p>-- &nbsp;[site:name] team</p>'
+  format: easy_email
+bodyPlain: "[easy_email:recipient_uid:0:entity:display-name],\r\n\r\nYour account on [site:name] has been canceled.\r\n\r\n--  [site:name] team"
+generateBodyPlain: false
+attachment: {  }
+saveAttachment: false
+attachmentScheme: public
+attachmentDirectory: ''
+saveEmail: true
+allowSavingEmail: true
+purgeEmails: true
+purgeInterval: 30
+purgePeriod: days

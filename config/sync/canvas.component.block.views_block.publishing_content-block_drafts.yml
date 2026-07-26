@@ -1,0 +1,28 @@
+uuid: b490820c-5e99-4bc5-bf9f-e30a595a2dff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publishing_content
+  module:
+    - views
+_core:
+  default_config_hash: ZLiXT9iVUwK1HnI2ZbPX4AtUH867FVAs18W1iRKrM9M
+label: 'My drafts'
+id: block.views_block.publishing_content-block_drafts
+source: block
+source_local_id: 'views_block:publishing_content-block_drafts'
+provider: views
+active_version: ae4a8e761b90f388
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'views_block:publishing_content-block_drafts'
+        label: 'My drafts'
+        label_display: '0'
+        provider: views
+        views_label: ''
+        items_per_page: null
+    fallback_metadata:
+      slot_definitions: null

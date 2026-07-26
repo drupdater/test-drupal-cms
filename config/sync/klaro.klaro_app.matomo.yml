@@ -1,0 +1,46 @@
+uuid: a75d9616-a4bd-4649-8b70-aa9821252584
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: bDTSJ1oAWpvoMCBxb5vVyvlSOZELL_wGdNQWFuKANpA
+id: matomo
+label: Matomo
+description: 'Tracks online visits of the website.'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://matomo.org'
+privacy_policy_url: 'https://matomo.org/privacy-policy'
+purposes:
+  - analytics
+cookies:
+  -
+    regex: '^_pk_.*$'
+    path: ''
+    domain: ''
+  -
+    regex: '^matomo.*$'
+    path: ''
+    domain: ''
+  -
+    regex: '^mtm_.*$'
+    path: ''
+    domain: ''
+  -
+    regex: piwik_ignore
+    path: ''
+    domain: ''
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - matomo.js
+wrapper_identifier: {  }
+attachments:
+  - matomo_tracking_script
+weight: 3

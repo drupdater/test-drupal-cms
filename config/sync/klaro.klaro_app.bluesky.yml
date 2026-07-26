@@ -1,0 +1,30 @@
+uuid: b860bd08-7147-4195-ab8a-23cd2b706f7e
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: nEKtqdQrvNvrOrn3ABoKMwZOL1j7NwAL37ACgL1wWrE
+id: bluesky
+label: Bluesky
+description: 'Bluesky is a social media platform by Bluesky, PBLLC (USA)'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://bsky.social/about/faq'
+privacy_policy_url: 'https://bsky.social/about/support/privacy-policy'
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - embed.bsky.app
+wrapper_identifier:
+  - .bluesky-embed
+attachments: {  }
+weight: 0

@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Fixture module for the drupdater regression testbed.
+ *
+ * Everything below violates the Drupal coding standard ON PURPOSE, and every
+ * violation is one PHPCBF can fix automatically -- code_beautifier only commits
+ * when phpcs reports Totals.Fixable > 0. Do not "clean this up": a tidy file
+ * here means the addon silently does nothing and the test stops testing it.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drupdater_fixture_help($route_name, RouteMatchInterface $route_match) {
+   // Wrong indentation: three spaces where the standard wants two.
+   $replacements = array(
+     'module' => 'drupdater_fixture',
+   );
+
+   if ($route_name == 'help.page.drupdater_fixture') {
+     return '<p>Fixture module for '.$replacements['module'].'.</p>';
+   }
+   else if ($route_name == 'help.page.system') {
+     return '';
+   }
+
+   return NULL;
+}
+
+/**
+ * Returns the fixture's demo rows.
+ *
+ * @return array
+ *   A list of rows, keyed by machine name.
+ */
+function drupdater_fixture_rows() {
+  $rows = array(
+    'first'  => array('label' => 'First',  'weight' => 0),
+    'second' => array('label' => 'Second', 'weight' => 10),
+  );
+
+  foreach ($rows as $key=>$row) {
+    $rows[$key]['id'] = 'drupdater-fixture-'.$key;
+  }
+
+  return $rows;
+}

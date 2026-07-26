@@ -1,0 +1,5 @@
+name: 'Drupdater Fixture'
+type: module
+description: 'Deliberately imperfect code, so drupdater''s code_beautifier and deprecations_remover addons have something to fix.'
+package: Testing
+core_version_requirement: ^11

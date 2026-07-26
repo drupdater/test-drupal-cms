@@ -1,0 +1,32 @@
+uuid: 66fb3fe3-ccff-41a8-b479-03616b95c4bc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mercury
+_core:
+  default_config_hash: 7DSYVIDIie3GzvlfiDT7_I-MbJ7q68k9HonNA88sU2A
+label: Anchor
+id: sdc.mercury.anchor
+source: sdc
+source_local_id: 'mercury:anchor'
+provider: mercury
+active_version: '5524813695409257'
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        id:
+          required: true
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: anchor-id
+          expression: ℹ︎string␟value
+          derived_schema_metadata:
+            string_shape: {  }
+    fallback_metadata:
+      slot_definitions: {  }

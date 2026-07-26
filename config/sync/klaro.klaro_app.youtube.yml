@@ -1,0 +1,32 @@
+uuid: cf90e58a-e372-4602-9364-f73a9a79bbef
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: Z3CAi23d9Pke-U5XE-CTb9pqswHx32RX90b7YdxLmAo
+id: youtube
+label: YouTube
+description: 'YouTube is an online video sharing platform owned by Google.'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://www.youtube.com/'
+privacy_policy_url: 'https://www.youtube.com/howyoutubeworks/our-commitments/protecting-user-data/'
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - youtube.com
+  - youtu.be
+  - youtube-nocookie.com
+  - ytimg.com
+wrapper_identifier: {  }
+attachments: {  }
+weight: 0

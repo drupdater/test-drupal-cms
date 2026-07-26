@@ -1,0 +1,25 @@
+uuid: e5ca6615-b414-42f5-8d59-16bf5bc1b44e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VvlVD-j0xxfplBQxpcJhpeTc6AuM5c2d9tc2M-nc728
+label: 'User: Account Activation'
+id: user_activation
+param_map:
+  -
+    source: account
+    destination: recipient_uid
+copied_fields:
+  from: false
+  reply_to: false
+  to: false
+  cc: false
+  bcc: false
+  subject: false
+  body_html: false
+  body_plain: false
+  attachments: false
+module: user
+key: status_activated
+easy_email_type: user_activation

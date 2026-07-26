@@ -1,0 +1,30 @@
+uuid: 80cfd9f9-b604-4917-92d1-9a4539849d91
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: K5iaYyk5Cixwur1kOgCGE0LUfmpeqFg4c_oYbG7ohlQ
+id: mastodon_module
+label: Mastodon
+description: "Mastodon module for Drupal connects to given Mastodon server and stores posts in user's browser. Personal data such as IP addresses are processed."
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: false
+contextual_consent_text: ''
+info_url: 'https://mastodon.social/'
+privacy_policy_url: 'https://mastodon.social/privacy-policy'
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - mastodon.fed_embed.js
+wrapper_identifier:
+  - fed-embed
+attachments: {  }
+weight: 0

@@ -1,0 +1,10 @@
+--- a/README.md
++++ b/README.md
+@@ -73,3 +73,7 @@
+ 2. Run `drush locale-deploy:custom-translations`
+ 3. Update the 'Paragraphs' translation to your desired string in the
+ translations/custom/custom.LANGCODE.po file.
++
++## Patched by the drupdater regression testbed
++
++This line exists so composer_patches has a patch that keeps applying.

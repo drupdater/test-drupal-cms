@@ -1,0 +1,11 @@
+uuid: 3185fe18-716b-46c5-847d-9b1de5bceb66
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.sdc.navigation.title
+name: Other
+configEntityTypeId: component
+weight: 0
+items:
+  - sdc.navigation.title

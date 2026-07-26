@@ -1,0 +1,29 @@
+uuid: a71452b9-7dd7-41d6-9636-bdd6721e62fd
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: NtqWVWFQEL3Kb4UQBv6dbwlPyCDI1zxcY4Ca8WXxUNs
+id: linkedin
+label: Linkedin
+description: 'Linkedin is a social media platform by Linkedin, Inc (USA), subsidiary of Microsoft Corp. (USA).'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://about.linkedin.com/'
+privacy_policy_url: 'https://www.linkedin.com/legal/privacy-policy'
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - www.linkedin.com
+wrapper_identifier: {  }
+attachments: {  }
+weight: 0

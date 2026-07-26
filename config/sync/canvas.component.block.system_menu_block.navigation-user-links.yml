@@ -1,0 +1,29 @@
+uuid: 2f39ac7b-3583-468d-a04e-d8e0c613a6aa
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.navigation-user-links
+  module:
+    - system
+_core:
+  default_config_hash: D8fkSwmX5eXCPQraoeD3BClwBZp4FiUFUuyNWXKmT7A
+label: 'Navigation user links'
+id: block.system_menu_block.navigation-user-links
+source: block
+source_local_id: 'system_menu_block:navigation-user-links'
+provider: system
+active_version: 298f8d9d22cdc850
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'system_menu_block:navigation-user-links'
+        label: 'Navigation user links'
+        label_display: '0'
+        provider: system
+        level: 1
+        depth: null
+        expand_all_items: false
+    fallback_metadata:
+      slot_definitions: null

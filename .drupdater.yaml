@@ -1,0 +1,23 @@
+# Every configurable addon is enabled: the point of this repository is that a
+# drupdater run exercises all of them, not that it finishes quickly.
+sites: [default]
+
+# A Drupal CMS install plus composer update plus Rector does not fit in the 30m
+# default on a GitHub-hosted runner.
+timeout: 45m
+
+run_types:
+  normal:
+    addons:
+      - code_beautifier
+      - deprecations_remover
+      - translations_updater
+      - composer_normalizer
+      - unsupported_modules
+    # Never merge anything here. The value of this repository is that main
+    # never moves.
+    auto_merge: false
+  security:
+    # composer_audit is mandatory in security mode and is added automatically.
+    addons: []
+    auto_merge: false

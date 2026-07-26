@@ -1,0 +1,35 @@
+uuid: e1e75d2b-c3eb-4a21-a476-3d81ee285649
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.hero_wide
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.hero_wide
+  module:
+    - responsive_image
+_core:
+  default_config_hash: 3qt9B0Nyn7xknzM4aq4nf-2xRKSbubkozEU8Cfl3Fgw
+id: media.image.hero_wide
+targetEntityType: media
+bundle: image
+mode: hero_wide
+content:
+  field_media_image:
+    type: responsive_image
+    label: visually_hidden
+    settings:
+      responsive_image_style: hero_wide
+      image_link: ''
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,30 @@
+uuid: d9a8e631-f4f1-4987-ae00-6be0689aeb6c
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: lDkKLpbmlOsOF02iftBhhb4ONvIc1YCR7OmhRAVIj80
+id: google_maps
+label: 'Google Maps'
+description: 'Google Maps is an online map service offered by Google.'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://www.google.com/maps/about'
+privacy_policy_url: 'https://policies.google.com/privacy'
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - 'https://www.google.com/maps/embed'
+  - 'https://maps.googleapis.com/maps/api/staticmap'
+wrapper_identifier: {  }
+attachments: {  }
+weight: 0

@@ -1,0 +1,29 @@
+uuid: 3b76e547-83bf-4e24-9397-d17e579e9250
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.content
+  module:
+    - system
+_core:
+  default_config_hash: '-SoVmdaz3Y1wCQcA9tbzIKkZv61eDN6xLIbw3lXf-6A'
+label: Content
+id: block.system_menu_block.content
+source: block
+source_local_id: 'system_menu_block:content'
+provider: system
+active_version: d795a50fdf185e45
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: 'system_menu_block:content'
+        label: Content
+        label_display: '0'
+        provider: system
+        level: 1
+        depth: null
+        expand_all_items: false
+    fallback_metadata:
+      slot_definitions: null

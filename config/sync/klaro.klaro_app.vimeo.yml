@@ -1,0 +1,29 @@
+uuid: 308a1c6b-8d7f-4a75-a699-8186294f7a6e
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: FpiVgImY9fIlG-ea365wv6O7JN4qIKRgopETT20Jhe0
+id: vimeo
+label: Vimeo
+description: 'Vimeo is a video sharing platform by Vimeo, LLC (USA).'
+default: false
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: null
+contextual_consent_text: null
+info_url: 'https://vimeo.com/'
+privacy_policy_url: 'https://vimeo.com/privacy'
+purposes:
+  - external_content
+cookies: {  }
+callback_code: ''
+on_init: ''
+on_accept: ''
+on_decline: ''
+javascripts:
+  - vimeo.com
+wrapper_identifier: {  }
+attachments: {  }
+weight: 0

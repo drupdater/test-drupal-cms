@@ -1,0 +1,24 @@
+uuid: eb7e9fc5-0377-4db3-adcd-f8de53926d42
+langcode: en
+status: false
+dependencies:
+  module:
+    - dashboard
+_core:
+  default_config_hash: n6kmStcLZuApfssTHYgbRPdykkRDhSnDwPpIKSGgYA0
+label: 'Site Status'
+id: block.dashboard_site_status
+source: block
+source_local_id: dashboard_site_status
+provider: dashboard
+active_version: 0b51e33f5f49694c
+versioned_properties:
+  active:
+    settings:
+      default_settings:
+        id: dashboard_site_status
+        label: 'Site Status'
+        label_display: '0'
+        provider: dashboard
+    fallback_metadata:
+      slot_definitions: null
