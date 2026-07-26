@@ -45,6 +45,31 @@ upstream Drupal change worth knowing about.
 | Committed `web/sites/default/settings.php` | preflight's settings.php check, and the installer's SQLite append |
 | `config/sync/` with a profile-less `core.extension.yml` | `drush site:install --existing-config` |
 
+### locale_deploy
+
+Its expected `locale.settings` state is defined by the module's own
+`hook_requirements`, and `hook_install` writes it — so these values are exported
+from a real install rather than hand-set, and must stay as they are:
+
+| key | value |
+|---|---|
+| `translation.use_source` | `local` |
+| `translation.default_server_pattern` | `translations://%project.%language.po` |
+| `translation.update_interval_days` | `0` |
+| `translation.overwrite_customized` | `false` |
+| `translation.overwrite_not_customized` | `true` |
+
+`translation.path` is ours to choose; the module only ever goes through the
+`translations://` stream wrapper. Note that core resolves local translation
+files from `default_server_pattern`, **not** from `translation.default_filename`
+— the latter still holds core's versioned default and is not consulted here.
+
+`translations/custom/` is where `drush locale-deploy:custom-translations` writes
+one `custom.LANGCODE.po` per language, from strings potx extracts out of
+`modules/custom`. The module registers that directory as a pseudo-project
+ordered last, so those strings override core and contrib. `drupal/potx` comes in
+as a hard dependency of `drupal/locale_deploy`.
+
 `drupal/coder` and `palantirnet/drupal-rector` are deliberately **not** required.
 Leaving them out is what makes `code_beautifier` and `deprecations_remover`
 exercise their install-then-remove paths on every run.

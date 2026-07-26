@@ -49,3 +49,20 @@ function drupdater_fixture_rows() {
 
   return $rows;
 }
+
+/**
+ * Holds strings for locale_deploy's custom-translations workflow.
+ *
+ * locale_deploy extracts translatable strings from modules/custom with potx and
+ * writes one translations/custom/custom.LANGCODE.po per enabled language. It
+ * registers that directory as a pseudo-project ordered last, so anything in it
+ * overrides core and contrib translations. A string only makes it into that
+ * file if it appears in a custom module, hence this function -- it is never
+ * called, exactly as the module's README suggests.
+ *
+ * @see https://www.drupal.org/project/locale_deploy
+ */
+function _drupdater_fixture_never_called(): void {
+  // Remember to include context in the options if necessary.
+  t('Paragraphs');
+}
