@@ -40,7 +40,7 @@ upstream Drupal change worth knowing about.
 | `phpcs.xml` (with a `<file>` element) + `web/modules/custom/drupdater_fixture` | `code_beautifier` |
 | `web/modules/custom/drupdater_fixture/src/DeprecatedApiUser.php` | `deprecations_remover` |
 | `ergebnis/composer-normalize` in `require-dev` | `composer_normalizer` |
-| `locale_deploy` enabled + `web/sites/default/files/translations/` | `translations_updater` |
+| `locale_deploy` enabled, a second language (`de`), and `translations/` | `translations_updater` |
 | `update` module enabled | `unsupported_modules` |
 | Committed `web/sites/default/settings.php` | preflight's settings.php check, and the installer's SQLite append |
 | `config/sync/` with a profile-less `core.extension.yml` | `drush site:install --existing-config` |
@@ -115,6 +115,10 @@ composer update --lock --no-install           # re-sync the hash, do NOT re-reso
 drush --yes site:install recipes/drupal_cms_starter --sites-subdir=default
 drush --yes pm:enable update locale locale_deploy drupdater_fixture
 drush --yes language:add de
+# locale.settings translation.path is committed as ../translations, relative to
+# the Drupal root, so locale_deploy writes .po files to the repository-root
+# translations/ directory rather than burying them under web/sites/*/files
+# (which is gitignored, and where nothing would ever be committed).
 drush --yes config:export
 ```
 

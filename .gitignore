@@ -21,13 +21,11 @@
 # project: drupdater's preflight requires it to exist and its installer appends
 # to it rather than creating it. Do not add an ignore rule for it.
 
-# Ignore the files directory's CONTENTS rather than the directory itself -- a
-# rule that excludes a directory makes every negation inside it a no-op, and the
-# translations directory below has to survive.
-/web/sites/*/files/*
-!/web/sites/default/files/translations
-/web/sites/default/files/translations/*
-!/web/sites/default/files/translations/.gitkeep
+/web/sites/*/files
+
+# Translations live at the repository root, not under web/sites/*/files: that is
+# where locale.settings translation.path points, and drupdater stages whatever
+# that resolves to. Deliberately NOT ignored.
 
 # Local databases. drupdater writes <site>.sqlite beside the checkout rather
 # than inside it, but a stray one from a manual run should never be committed.
