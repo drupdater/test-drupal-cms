@@ -8,11 +8,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: BC-k9NH4JG-y8-0NOSOL_oqfMKMzXkWKxTyGpSFUvow
-label: Icon
-id: sdc.mercury.icon
-source: sdc
-source_local_id: 'mercury:icon'
-provider: mercury
 active_version: 7d2cdaeca3752d68
 versioned_properties:
   active:
@@ -44,3 +39,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: Icon
+id: sdc.mercury.icon
+provider: mercury
+source: sdc
+source_local_id: 'mercury:icon'

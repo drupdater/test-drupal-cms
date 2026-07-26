@@ -12,11 +12,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: Y-AnSIv8e8xVzJIAn12TTjB-zBYeQ6ApgwpN7qlt1Js
-label: 'Pricing card'
-id: sdc.mercury.card-pricing
-source: sdc
-source_local_id: 'mercury:card-pricing'
-provider: mercury
 active_version: 8b1a744c877e8029
 versioned_properties:
   active:
@@ -149,3 +144,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: 'Pricing card'
+id: sdc.mercury.card-pricing
+provider: mercury
+source: sdc
+source_local_id: 'mercury:card-pricing'

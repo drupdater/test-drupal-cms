@@ -6,11 +6,6 @@ dependencies:
     - project_browser
 _core:
   default_config_hash: tZB56lYENvrAYhMN67_XbR1bVamGaY5NN7NCAAVIGtw
-label: 'Recommended add-ons'
-id: block.project_browser_block.recommended
-source: block
-source_local_id: 'project_browser_block:recommended'
-provider: project_browser
 active_version: 97ac3c2f798d90b2
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         filters: null
     fallback_metadata:
       slot_definitions: null
+label: 'Recommended add-ons'
+id: block.project_browser_block.recommended
+provider: project_browser
+source: block
+source_local_id: 'project_browser_block:recommended'

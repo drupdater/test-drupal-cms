@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: D8fkSwmX5eXCPQraoeD3BClwBZp4FiUFUuyNWXKmT7A
-label: 'Navigation user links'
-id: block.system_menu_block.navigation-user-links
-source: block
-source_local_id: 'system_menu_block:navigation-user-links'
-provider: system
 active_version: 298f8d9d22cdc850
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: 'Navigation user links'
+id: block.system_menu_block.navigation-user-links
+provider: system
+source: block
+source_local_id: 'system_menu_block:navigation-user-links'

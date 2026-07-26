@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: 4ZPD-B3QxZO_cMYBIwJGyaCLrC0F3ZVVzXJ_OIcVcXc
-label: Footer
-id: block.system_menu_block.footer
-source: block
-source_local_id: 'system_menu_block:footer'
-provider: system
 active_version: 68bdb40e1ac48125
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: Footer
+id: block.system_menu_block.footer
+provider: system
+source: block
+source_local_id: 'system_menu_block:footer'

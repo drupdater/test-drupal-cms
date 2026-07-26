@@ -6,11 +6,6 @@ dependencies:
     - navigation
 _core:
   default_config_hash: Fkglg4JJcQYdD7KcBTdEDCOE3wvj50v0KRrSpI95I18
-label: Link
-id: block.navigation_link
-source: block
-source_local_id: navigation_link
-provider: navigation
 active_version: 6bff3fd95c9429fb
 versioned_properties:
   active:
@@ -25,3 +20,8 @@ versioned_properties:
         icon_class: ''
     fallback_metadata:
       slot_definitions: null
+label: Link
+id: block.navigation_link
+provider: navigation
+source: block
+source_local_id: navigation_link

@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: Wws7gE89XcuRUIJDrP5klDx22obc7tuPHfN5E-rL4Jg
-label: 'User account menu'
-id: block.system_menu_block.account
-source: block
-source_local_id: 'system_menu_block:account'
-provider: system
 active_version: 4b3fb59b8eadb12d
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: 'User account menu'
+id: block.system_menu_block.account
+provider: system
+source: block
+source_local_id: 'system_menu_block:account'

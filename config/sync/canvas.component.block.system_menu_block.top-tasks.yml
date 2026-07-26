@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: bBnrHQYOTzBR2OTZe5l8X7hcxpy11DlBJIB35FPkb3c
-label: 'Top tasks'
-id: block.system_menu_block.top-tasks
-source: block
-source_local_id: 'system_menu_block:top-tasks'
-provider: system
 active_version: c51abfe3d72a2c9a
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: 'Top tasks'
+id: block.system_menu_block.top-tasks
+provider: system
+source: block
+source_local_id: 'system_menu_block:top-tasks'

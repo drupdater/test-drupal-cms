@@ -1,0 +1,11 @@
+alternative_title_field: field_breadcrumb_title
+home_segment_title: Startseite
+capitalizator_ignored_words:
+  - von
+  - und
+  - oder
+  - de
+  - del
+  - 'y'
+  - o
+  - ein

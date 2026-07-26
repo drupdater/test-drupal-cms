@@ -1,0 +1,80 @@
+label: Seiten
+display:
+  default:
+    display_title: Standard
+    display_options:
+      title: Seiten
+      fields:
+        edit_canvas_page:
+          label: Aktionen
+          text: Bearbeiten
+        title:
+          label: Titel
+          separator: ', '
+        status:
+          label: Status
+          settings:
+            format_custom_false: 'Nicht veröffentlicht'
+            format_custom_true: Veröffentlicht
+          separator: ', '
+        owner:
+          label: Autor
+          separator: ', '
+        changed:
+          label: Aktualisiert
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: Sortierung
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      filters:
+        title:
+          expose:
+            label: Titel
+        status:
+          expose:
+            label: Veröffentlicht
+          group_info:
+            label: Veröffentlicht
+            group_items:
+              1:
+                title: Veröffentlicht
+              2:
+                title: 'Nicht veröffentlicht'
+  page_1:
+    display_title: Seite
+    display_options:
+      fields:
+        title:
+          label: Titel
+          separator: ', '
+        status:
+          label: Status
+          settings:
+            format_custom_false: 'Nicht veröffentlicht'
+            format_custom_true: Veröffentlicht
+          separator: ', '
+        owner:
+          label: Autor
+          separator: ', '
+        changed:
+          label: Aktualisiert
+          separator: ', '
+        operations:
+          label: Aktionen
+      pager:
+        options:
+          tags:
+            next: 'Weiter ›'
+            previous: '‹ Zurück'
+            first: '« Erste'
+            last: 'Letzte »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      menu:
+        title: Seiten

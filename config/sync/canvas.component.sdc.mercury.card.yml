@@ -18,11 +18,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: DdUnlbrNBwVtUACGU6sPi-jLaEmhd82ctIRFhldswuY
-label: 'Image card'
-id: sdc.mercury.card
-source: sdc
-source_local_id: 'mercury:card'
-provider: mercury
 active_version: c313844ff80fde7d
 versioned_properties:
   active:
@@ -142,3 +137,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: 'Image card'
+id: sdc.mercury.card
+provider: mercury
+source: sdc
+source_local_id: 'mercury:card'

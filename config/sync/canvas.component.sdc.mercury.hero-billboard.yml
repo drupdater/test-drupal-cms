@@ -17,11 +17,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: UhcBytmc_jl-onnUximYKsJ5S1V3LdmKYPSxa9fCC6E
-label: 'Hero billboard'
-id: sdc.mercury.hero-billboard
-source: sdc
-source_local_id: 'mercury:hero-billboard'
-provider: mercury
 active_version: 69e1345b50b2f63c
 versioned_properties:
   active:
@@ -105,3 +100,8 @@ versioned_properties:
       slot_definitions:
         hero_slot:
           title: 'Hero content'
+label: 'Hero billboard'
+id: sdc.mercury.hero-billboard
+provider: mercury
+source: sdc
+source_local_id: 'mercury:hero-billboard'

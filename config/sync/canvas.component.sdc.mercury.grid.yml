@@ -8,11 +8,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: gVuMXZSjc53lyiyMWCHlR7E6IDnZAJ3U1S5KOJmoZYo
-label: Grid
-id: sdc.mercury.grid
-source: sdc
-source_local_id: 'mercury:grid'
-provider: mercury
 active_version: d3e0565623935449
 versioned_properties:
   active:
@@ -58,3 +53,8 @@ versioned_properties:
       slot_definitions:
         main_slot:
           title: Grid
+label: Grid
+id: sdc.mercury.grid
+provider: mercury
+source: sdc
+source_local_id: 'mercury:grid'

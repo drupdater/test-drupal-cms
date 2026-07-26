@@ -9,11 +9,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: axLg9hrcwFJxU_XAchN7KQ8o7J-zg6eQkkKwwQkaOlg
-label: Button
-id: sdc.mercury.button
-source: sdc
-source_local_id: 'mercury:button'
-provider: mercury
 active_version: 0ca665b3987e81dd
 versioned_properties:
   active:
@@ -113,3 +108,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: Button
+id: sdc.mercury.button
+provider: mercury
+source: sdc
+source_local_id: 'mercury:button'

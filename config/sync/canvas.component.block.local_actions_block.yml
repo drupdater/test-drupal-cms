@@ -4,11 +4,6 @@ status: false
 dependencies: {  }
 _core:
   default_config_hash: TXCZsY6OZ9raRivmp7ABOiSeBDVJJkdbCBQOA9X6I5w
-label: 'Primary admin actions'
-id: block.local_actions_block
-source: block
-source_local_id: local_actions_block
-provider: core
 active_version: 29753123eb31b8ab
 versioned_properties:
   active:
@@ -20,3 +15,8 @@ versioned_properties:
         provider: core
     fallback_metadata:
       slot_definitions: null
+label: 'Primary admin actions'
+id: block.local_actions_block
+provider: core
+source: block
+source_local_id: local_actions_block

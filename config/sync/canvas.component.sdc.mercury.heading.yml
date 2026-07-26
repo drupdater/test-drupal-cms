@@ -9,11 +9,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: eEqRz7FMpZzC5Ku21mWB8QmxYLVP54FK63Cq3uxdVP4
-label: Heading
-id: sdc.mercury.heading
-source: sdc
-source_local_id: 'mercury:heading'
-provider: mercury
 active_version: 9ba4baa1476e5856
 versioned_properties:
   active:
@@ -94,3 +89,8 @@ versioned_properties:
               format: uri-reference
     fallback_metadata:
       slot_definitions: {  }
+label: Heading
+id: sdc.mercury.heading
+provider: mercury
+source: sdc
+source_local_id: 'mercury:heading'

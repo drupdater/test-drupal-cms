@@ -1,0 +1,2 @@
+label: 'Drupal AI Alt Text Erstellung'
+description: 'Dieser Dienst erzeugt mithilfe von KI-Vision-Modellen Alt-Texte für Bilder. Das Bild und die Metadaten werden dafür an den ausgewählten KI-Dienst gesendet.'

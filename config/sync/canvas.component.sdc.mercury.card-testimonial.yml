@@ -18,11 +18,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: VwkP3R1DB_iV9hZIy7q6Xe2Xv0ieGrfCT1_KSs97Zc4
-label: 'Testimonial card'
-id: sdc.mercury.card-testimonial
-source: sdc
-source_local_id: 'mercury:card-testimonial'
-provider: mercury
 active_version: 1cfce5d019a22099
 versioned_properties:
   active:
@@ -119,3 +114,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: 'Testimonial card'
+id: sdc.mercury.card-testimonial
+provider: mercury
+source: sdc
+source_local_id: 'mercury:card-testimonial'

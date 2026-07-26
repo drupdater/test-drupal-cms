@@ -7,11 +7,6 @@ dependencies:
     - options
 _core:
   default_config_hash: crLWFcQ_6H9RrahZ73nVhGnOrfA8soIz3GgKEktiABk
-label: Title
-id: sdc.navigation.title
-source: sdc
-source_local_id: 'navigation:title'
-provider: navigation
 active_version: f7072e7d10fc2cb1
 versioned_properties:
   active:
@@ -64,3 +59,8 @@ versioned_properties:
         content:
           title: Content
           description: 'Content of title.'
+label: Title
+id: sdc.navigation.title
+provider: navigation
+source: sdc
+source_local_id: 'navigation:title'

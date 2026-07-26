@@ -9,11 +9,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: V6AWylt2p7ep72R8RcWHq4cs-LLg9NA7AvdVBAaf7gY
-label: Badge
-id: sdc.mercury.badge
-source: sdc
-source_local_id: 'mercury:badge'
-provider: mercury
 active_version: bfe5c65718a21f4d
 versioned_properties:
   active:
@@ -81,3 +76,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: Badge
+id: sdc.mercury.badge
+provider: mercury
+source: sdc
+source_local_id: 'mercury:badge'

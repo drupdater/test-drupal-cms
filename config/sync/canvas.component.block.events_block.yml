@@ -6,11 +6,6 @@ dependencies:
     - drupical
 _core:
   default_config_hash: 4SvjInRBxF4Yc2HrBHUq0R-_rN1LTYeATI5O-RSz4d8
-label: 'Events Feed'
-id: block.events_block
-source: block
-source_local_id: events_block
-provider: drupical
 active_version: 190c703c16aaf9ac
 versioned_properties:
   active:
@@ -22,3 +17,8 @@ versioned_properties:
         provider: drupical
     fallback_metadata:
       slot_definitions: null
+label: 'Events Feed'
+id: block.events_block
+provider: drupical
+source: block
+source_local_id: events_block

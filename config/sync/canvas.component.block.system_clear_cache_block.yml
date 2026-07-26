@@ -6,11 +6,6 @@ dependencies:
     - system
 _core:
   default_config_hash: AjZvj8fNFPuALFy9NPl2n-vGwGcExWc3KLM-49IA3s4
-label: 'Clear cache'
-id: block.system_clear_cache_block
-source: block
-source_local_id: system_clear_cache_block
-provider: system
 active_version: 435d13d2208c8fee
 versioned_properties:
   active:
@@ -22,3 +17,8 @@ versioned_properties:
         provider: system
     fallback_metadata:
       slot_definitions: null
+label: 'Clear cache'
+id: block.system_clear_cache_block
+provider: system
+source: block
+source_local_id: system_clear_cache_block

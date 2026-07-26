@@ -4,8 +4,11 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: Y_kW4_A5g_wobEIHnf_eFMtYzVvj_-g00kvE1Ke6P4I
-label: 'User: Account Blocked'
 id: user_blocked
+label: 'User: Account Blocked'
+module: user
+key: status_blocked
+easy_email_type: user_blocked
 param_map:
   -
     source: account
@@ -20,6 +23,3 @@ copied_fields:
   body_html: false
   body_plain: false
   attachments: false
-module: user
-key: status_blocked
-easy_email_type: user_blocked

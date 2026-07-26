@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: '-SoVmdaz3Y1wCQcA9tbzIKkZv61eDN6xLIbw3lXf-6A'
-label: Content
-id: block.system_menu_block.content
-source: block
-source_local_id: 'system_menu_block:content'
-provider: system
 active_version: d795a50fdf185e45
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: Content
+id: block.system_menu_block.content
+provider: system
+source: block
+source_local_id: 'system_menu_block:content'

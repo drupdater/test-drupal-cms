@@ -6,11 +6,6 @@ dependencies:
     - announcements_feed
 _core:
   default_config_hash: YSHtQR8ysTJtdLQqw_OSZ7Flr1VH3oBFgeeQ9SAiwfk
-label: 'Announcements Feed'
-id: block.announce_block
-source: block
-source_local_id: announce_block
-provider: announcements_feed
 active_version: d2ee7918676f072c
 versioned_properties:
   active:
@@ -22,3 +17,8 @@ versioned_properties:
         provider: announcements_feed
     fallback_metadata:
       slot_definitions: null
+label: 'Announcements Feed'
+id: block.announce_block
+provider: announcements_feed
+source: block
+source_local_id: announce_block

@@ -18,11 +18,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: dAWEAIR51N8vXc4DDx_2O3oQAnib7Egl9dLuYnkmZSQ
-label: Image
-id: sdc.mercury.image
-source: sdc
-source_local_id: 'mercury:image'
-provider: mercury
 active_version: d77451010df91d0e
 versioned_properties:
   active:
@@ -92,3 +87,8 @@ versioned_properties:
               format: uri-reference
     fallback_metadata:
       slot_definitions: {  }
+label: Image
+id: sdc.mercury.image
+provider: mercury
+source: sdc
+source_local_id: 'mercury:image'

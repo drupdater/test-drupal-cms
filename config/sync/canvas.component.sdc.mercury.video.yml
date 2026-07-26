@@ -18,11 +18,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: u2ywm-UBTsHHCu0if4aJ1nicTZnN3bZrab7IDaiWHnA
-label: Video
-id: sdc.mercury.video
-source: sdc
-source_local_id: 'mercury:video'
-provider: mercury
 active_version: f15c8b7cc3a24a25
 versioned_properties:
   active:
@@ -105,3 +100,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: Video
+id: sdc.mercury.video
+provider: mercury
+source: sdc
+source_local_id: 'mercury:video'

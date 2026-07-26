@@ -1,0 +1,38 @@
+consentModal:
+  title: 'Verwendung von personenbezogenen Daten und Cookies'
+  description: |
+    Bitte die Dienste und Anwendungen von Drittanbietern auswählen, die Sie nutzen möchten.
+  privacyPolicy:
+    name: Datenschutzhinweise
+    text: |
+      Für weitere Informationen bitte unsere {privacyPolicy} lesen.
+    url: 'internal:/&lt;front&gt;'
+consentNotice:
+  title: 'Verwendung von personenbezogenen Daten und Cookies'
+  changeDescription: 'Es gab Änderungen seit dem letzten Besuch und die Einwilligungen müssen aktualisiert werden.'
+  description: |
+    Wir verwenden Cookies und verarbeiten personenbezogene Daten für die folgenden Zwecke: {purposes}.
+  learnMore: Anpassen
+ok: Akzeptieren
+save: Speichern
+decline: Ablehnen
+close: Schließen
+acceptAll: 'Alle akzeptieren'
+acceptSelected: 'Auswahl akzeptieren'
+service:
+  disableAll:
+    title: 'Alle Dienste umschalten'
+    description: 'Diesen Schalter nutzen, um alle Dienste zu aktivieren/deaktivieren.'
+  optOut:
+    title: (Opt-Out)
+    description: 'Dieser Dienst wird standardmäßig geladen (Opt-out möglich).'
+  required:
+    title: '(immer erforderlich)'
+    description: 'Dieser Dienst ist immer erforderlich.'
+  purposes: Zwecke
+  purpose: Zweck
+contextualConsent:
+  acceptAlways: Immer
+  acceptOnce: 'Ja (einmalig)'
+  description: 'Von {title} bereitgestellten externen Inhalt laden?'
+poweredBy: 'Realisiert mit Klaro!'

@@ -4,8 +4,8 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: LBYFW8_h5NcwGGIwzNjGMveLU42OVRmqWBpIVC_0aoU
-label: 'User: Account Cancellation Confirmation'
 id: user_cancellation_confirmation
+label: 'User: Account Cancellation Confirmation'
 key: ''
 recipient: {  }
 cc: {  }

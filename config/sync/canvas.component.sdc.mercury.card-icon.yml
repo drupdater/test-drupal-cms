@@ -12,11 +12,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: xeNeype1FeJDCyfV2jKKHQgHkK0J5KppYoxmRybrhXA
-label: 'Icon card'
-id: sdc.mercury.card-icon
-source: sdc
-source_local_id: 'mercury:card-icon'
-provider: mercury
 active_version: 65aac92c6edf2380
 versioned_properties:
   active:
@@ -156,3 +151,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: 'Icon card'
+id: sdc.mercury.card-icon
+provider: mercury
+source: sdc
+source_local_id: 'mercury:card-icon'

@@ -19,8 +19,8 @@ layout:
     layout_id: layout_twocol_section
     layout_settings:
       label: 'Content and tasks'
-      column_widths: 67-33
       context_mapping: {  }
+      column_widths: 67-33
     components:
       cb457c1c-83c2-4a79-a09e-2c64a8bf8fb8:
         uuid: cb457c1c-83c2-4a79-a09e-2c64a8bf8fb8
@@ -83,8 +83,8 @@ layout:
     layout_id: layout_twocol_section
     layout_settings:
       label: 'Announcements and Events'
-      column_widths: 50-50
       context_mapping: {  }
+      column_widths: 50-50
     components:
       237ad3cf-cb2b-4991-a107-efafbef5f846:
         uuid: 237ad3cf-cb2b-4991-a107-efafbef5f846

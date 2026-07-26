@@ -4,8 +4,11 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: qFmsf56OAvaSiK1a1QRUwFMXXuPnx0WyJnsuaub2u8k
-label: Default
 id: default
+label: Default
+module: '*'
+key: '*'
+easy_email_type: default
 param_map: {  }
 copied_fields:
   from: true
@@ -17,6 +20,3 @@ copied_fields:
   body_html: true
   body_plain: true
   attachments: true
-module: '*'
-key: '*'
-easy_email_type: default

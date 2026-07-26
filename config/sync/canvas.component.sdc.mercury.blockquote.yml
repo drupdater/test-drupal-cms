@@ -8,11 +8,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: i2rBiFNiOhS6GmpMcs0FQJTsxIW6O_TtmAVjK5Oc4CI
-label: Blockquote
-id: sdc.mercury.blockquote
-source: sdc
-source_local_id: 'mercury:blockquote'
-provider: mercury
 active_version: cc5b33810a04e564
 versioned_properties:
   active:
@@ -69,3 +64,8 @@ versioned_properties:
               format: uri-reference
     fallback_metadata:
       slot_definitions: {  }
+label: Blockquote
+id: sdc.mercury.blockquote
+provider: mercury
+source: sdc
+source_local_id: 'mercury:blockquote'

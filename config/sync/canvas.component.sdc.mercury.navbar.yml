@@ -8,11 +8,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: of9YlfjmcKu1UgyYEIfhfJYimNAlWdYJ0m13HW7D_fI
-label: Navbar
-id: sdc.mercury.navbar
-source: sdc
-source_local_id: 'mercury:navbar'
-provider: mercury
 active_version: 3149f199d66bbc29
 versioned_properties:
   active:
@@ -38,3 +33,8 @@ versioned_properties:
           title: 'Navigation menu'
         links:
           title: CTAs
+label: Navbar
+id: sdc.mercury.navbar
+provider: mercury
+source: sdc
+source_local_id: 'mercury:navbar'

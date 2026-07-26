@@ -17,11 +17,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: t1TIl_5KtIr3FN2hTS5ZqPPDL-wdNtK5VWdMqYP_yqU
-label: 'Hero CTA'
-id: sdc.mercury.cta
-source: sdc
-source_local_id: 'mercury:cta'
-provider: mercury
 active_version: 7f6c40ea90b84edc
 versioned_properties:
   active:
@@ -116,3 +111,8 @@ versioned_properties:
       slot_definitions:
         actions:
           title: Buttons
+label: 'Hero CTA'
+id: sdc.mercury.cta
+provider: mercury
+source: sdc
+source_local_id: 'mercury:cta'

@@ -8,11 +8,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: qiJCV0OguG66ZEZXtJHN2WYoNHRAD1wbD0vh55NKyik
-label: Accordion
-id: sdc.mercury.accordion
-source: sdc
-source_local_id: 'mercury:accordion'
-provider: mercury
 active_version: 9ef1c4769558babd
 versioned_properties:
   active:
@@ -58,3 +53,8 @@ versioned_properties:
         accordion_content:
           title: 'Accordion content'
           description: 'Content in this slot will be hidden when the accordion is collapsed.'
+label: Accordion
+id: sdc.mercury.accordion
+provider: mercury
+source: sdc
+source_local_id: 'mercury:accordion'

@@ -6,11 +6,6 @@ dependencies:
     - project_browser
 _core:
   default_config_hash: S8XFUPNhIkxpIdjJc3FUshC2LnC4mMftB6CpvyjFcrY
-label: 'Contrib modules'
-id: block.project_browser_block.drupalorg_jsonapi
-source: block
-source_local_id: 'project_browser_block:drupalorg_jsonapi'
-provider: project_browser
 active_version: e37816eb455058be
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         filters: null
     fallback_metadata:
       slot_definitions: null
+label: 'Contrib modules'
+id: block.project_browser_block.drupalorg_jsonapi
+provider: project_browser
+source: block
+source_local_id: 'project_browser_block:drupalorg_jsonapi'

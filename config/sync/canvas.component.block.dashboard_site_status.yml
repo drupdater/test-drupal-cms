@@ -6,11 +6,6 @@ dependencies:
     - dashboard
 _core:
   default_config_hash: n6kmStcLZuApfssTHYgbRPdykkRDhSnDwPpIKSGgYA0
-label: 'Site Status'
-id: block.dashboard_site_status
-source: block
-source_local_id: dashboard_site_status
-provider: dashboard
 active_version: 0b51e33f5f49694c
 versioned_properties:
   active:
@@ -22,3 +17,8 @@ versioned_properties:
         provider: dashboard
     fallback_metadata:
       slot_definitions: null
+label: 'Site Status'
+id: block.dashboard_site_status
+provider: dashboard
+source: block
+source_local_id: dashboard_site_status

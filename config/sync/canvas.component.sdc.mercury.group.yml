@@ -8,11 +8,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: GqZb3q4S95ozYiGcSqYSOntrWMm35dkqZdxH6msade8
-label: Group
-id: sdc.mercury.group
-source: sdc
-source_local_id: 'mercury:group'
-provider: mercury
 active_version: bc70b6c5dbe37a22
 versioned_properties:
   active:
@@ -223,3 +218,8 @@ versioned_properties:
       slot_definitions:
         group_slot:
           title: 'Group items'
+label: Group
+id: sdc.mercury.group
+provider: mercury
+source: sdc
+source_local_id: 'mercury:group'

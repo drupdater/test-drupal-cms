@@ -4,11 +4,6 @@ status: false
 dependencies: {  }
 _core:
   default_config_hash: qoqwGrJ_BIjMweu4aQyjOnui1_OUFSTTwravxunNw9Y
-label: Placeholder
-id: block.dashboard_placeholder
-source: block
-source_local_id: dashboard_placeholder
-provider: dashboard
 active_version: c02b777b3b56af3d
 versioned_properties:
   active:
@@ -20,3 +15,8 @@ versioned_properties:
         provider: dashboard
     fallback_metadata:
       slot_definitions: null
+label: Placeholder
+id: block.dashboard_placeholder
+provider: dashboard
+source: block
+source_local_id: dashboard_placeholder

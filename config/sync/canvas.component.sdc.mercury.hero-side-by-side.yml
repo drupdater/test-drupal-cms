@@ -17,11 +17,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: bxqb8xZKKOYjWUMzG57ufuUbAntVsAT0JfebLKW0cZM
-label: 'Hero side-by-side'
-id: sdc.mercury.hero-side-by-side
-source: sdc
-source_local_id: 'mercury:hero-side-by-side'
-provider: mercury
 active_version: 134543b92be69eb8
 versioned_properties:
   active:
@@ -142,3 +137,8 @@ versioned_properties:
       slot_definitions:
         hero_slot:
           title: Content
+label: 'Hero side-by-side'
+id: sdc.mercury.hero-side-by-side
+provider: mercury
+source: sdc
+source_local_id: 'mercury:hero-side-by-side'

@@ -17,11 +17,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: lUpZX12j_PuGnjaaiLoz8wredceIYtKwLmHH3U_zgrU
-label: Section
-id: sdc.mercury.section
-source: sdc
-source_local_id: 'mercury:section'
-provider: mercury
 active_version: a917d5c9be8f2830
 versioned_properties:
   active:
@@ -176,3 +171,8 @@ versioned_properties:
           title: Grid
         footer_slot:
           title: Footer
+label: Section
+id: sdc.mercury.section
+provider: mercury
+source: sdc
+source_local_id: 'mercury:section'

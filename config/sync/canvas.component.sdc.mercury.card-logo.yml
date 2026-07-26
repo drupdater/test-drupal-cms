@@ -18,11 +18,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: YfWSP6CCEHSBeVzjeb4IiYtTLAj4fm8kanuh4C7XG34
-label: 'Logo card'
-id: sdc.mercury.card-logo
-source: sdc
-source_local_id: 'mercury:card-logo'
-provider: mercury
 active_version: edb9b77489dca82c
 versioned_properties:
   active:
@@ -80,3 +75,8 @@ versioned_properties:
               format: uri-reference
     fallback_metadata:
       slot_definitions: {  }
+label: 'Logo card'
+id: sdc.mercury.card-logo
+provider: mercury
+source: sdc
+source_local_id: 'mercury:card-logo'

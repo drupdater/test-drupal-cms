@@ -6,11 +6,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: OLYeNLPsJ8d7YrURAn15FuU2BpVgHJIHelQDr7F51v4
-label: 'Accordion container'
-id: sdc.mercury.accordion-container
-source: sdc
-source_local_id: 'mercury:accordion-container'
-provider: mercury
 active_version: 6d6367123c15a82a
 versioned_properties:
   active:
@@ -21,3 +16,8 @@ versioned_properties:
         accordion_content:
           title: 'Accordion content'
           description: 'Only one of collapsible sections added can be open at a time.'
+label: 'Accordion container'
+id: sdc.mercury.accordion-container
+provider: mercury
+source: sdc
+source_local_id: 'mercury:accordion-container'

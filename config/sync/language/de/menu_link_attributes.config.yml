@@ -1,0 +1,9 @@
+attributes:
+  container_class:
+    label: Containerklasse(n)
+    description: 'CSS-Klasse für den Menülisteneintrag (<code>&lt;li&gt;</code>). Trennen Sie mehrere Klassen durch Leerzeichen.'
+  class:
+    label: Link-Klasse(n)
+    description: 'CSS-Klasse für den Link (<code>&lt;a href&gt;</code>). Trennen Sie mehrere Klassen durch Leerzeichen.'
+  target:
+    label: Link-Ziel

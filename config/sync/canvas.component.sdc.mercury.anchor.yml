@@ -6,11 +6,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: 7DSYVIDIie3GzvlfiDT7_I-MbJ7q68k9HonNA88sU2A
-label: Anchor
-id: sdc.mercury.anchor
-source: sdc
-source_local_id: 'mercury:anchor'
-provider: mercury
 active_version: '5524813695409257'
 versioned_properties:
   active:
@@ -30,3 +25,8 @@ versioned_properties:
             string_shape: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: Anchor
+id: sdc.mercury.anchor
+provider: mercury
+source: sdc
+source_local_id: 'mercury:anchor'

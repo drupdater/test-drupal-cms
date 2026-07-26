@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: oWU4VbeHPp8uPVKUYF6EPlA2M15VYnyStcCW8dprc1Q
-label: Tools
-id: block.system_menu_block.tools
-source: block
-source_local_id: 'system_menu_block:tools'
-provider: system
 active_version: 7a9e0103f91cf338
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: Tools
+id: block.system_menu_block.tools
+provider: system
+source: block
+source_local_id: 'system_menu_block:tools'

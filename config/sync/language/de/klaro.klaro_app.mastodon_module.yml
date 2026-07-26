@@ -1,0 +1,2 @@
+label: Mastodon
+description: 'Das Mastodon-Modul für Drupal stellt eine Verbindung zu einem bestimmten Mastodon-Server her und speichert Beiträge im Browser des Benutzers. Dabei werden personenbezogene Daten wie IP-Adressen verarbeitet.'

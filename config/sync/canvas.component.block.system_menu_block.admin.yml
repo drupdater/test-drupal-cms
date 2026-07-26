@@ -8,11 +8,6 @@ dependencies:
     - system
 _core:
   default_config_hash: xZZ8RxrYgMOqlviqyNDRtQAe5oUeLDG36WZgvVTvAOQ
-label: Administration
-id: block.system_menu_block.admin
-source: block
-source_local_id: 'system_menu_block:admin'
-provider: system
 active_version: 92a49829257c9e0c
 versioned_properties:
   active:
@@ -27,3 +22,8 @@ versioned_properties:
         expand_all_items: false
     fallback_metadata:
       slot_definitions: null
+label: Administration
+id: block.system_menu_block.admin
+provider: system
+source: block
+source_local_id: 'system_menu_block:admin'

@@ -11,11 +11,6 @@ dependencies:
     - mercury
 _core:
   default_config_hash: 40FCOFhZtJXiVybcgDooDsXL-54h42AfLck3OWpHjZI
-label: Text
-id: sdc.mercury.text
-source: sdc
-source_local_id: 'mercury:text'
-provider: mercury
 active_version: 16c79c28a4108f9b
 versioned_properties:
   active:
@@ -64,3 +59,8 @@ versioned_properties:
           derived_schema_metadata: {  }
     fallback_metadata:
       slot_definitions: {  }
+label: Text
+id: sdc.mercury.text
+provider: mercury
+source: sdc
+source_local_id: 'mercury:text'

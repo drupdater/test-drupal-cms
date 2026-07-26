@@ -8,11 +8,6 @@ dependencies:
     - views
 _core:
   default_config_hash: _2QUwuyBv_Ou149MAedJPml8YZhIzp3FxdRESojW_lA
-label: Scheduled
-id: block.views_block.publishing_content-block_scheduled
-source: block
-source_local_id: 'views_block:publishing_content-block_scheduled'
-provider: views
 active_version: 246c02b4b2c6742d
 versioned_properties:
   active:
@@ -26,3 +21,8 @@ versioned_properties:
         items_per_page: null
     fallback_metadata:
       slot_definitions: null
+label: Scheduled
+id: block.views_block.publishing_content-block_scheduled
+provider: views
+source: block
+source_local_id: 'views_block:publishing_content-block_scheduled'

@@ -6,11 +6,6 @@ dependencies:
     - system
 _core:
   default_config_hash: vPJV2UmmB-x1mwsd0XPugLSxkN7tZadHVCHXnK7ZgS4
-label: 'Site branding'
-id: block.system_branding_block
-source: block
-source_local_id: system_branding_block
-provider: system
 active_version: b168140fdcaebae5
 versioned_properties:
   active:
@@ -25,3 +20,8 @@ versioned_properties:
         use_site_slogan: true
     fallback_metadata:
       slot_definitions: null
+label: 'Site branding'
+id: block.system_branding_block
+provider: system
+source: block
+source_local_id: system_branding_block
