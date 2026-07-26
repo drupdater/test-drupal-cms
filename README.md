@@ -49,10 +49,36 @@ upstream Drupal change worth knowing about.
 Leaving them out is what makes `code_beautifier` and `deprecations_remover`
 exercise their install-then-remove paths on every run.
 
+## Verified
+
+A full `drupdater --dry-run` against this repository reaches, in order:
+`acquire working copy`, `preflight` (all six checks), `composer install`,
+`baseline site install`, `update shared code`, `site update`. The update
+resolves Drupal core 11.3.9 -> 11.4.x, which is a minor-crossing update and
+therefore carries `post_update_*` hooks for the `update_hooks` addon.
+
+Two findings worth keeping in mind if you rebuild this repository:
+
+- `drush site:install --existing-config` **does** work against Drupal CMS's
+  recipe-exported config, but only after the `user_picture` field is removed
+  from the export. Core's `SiteConfigureForm` saves the root user in the same
+  request that imported the config, before the entity field manager has seen
+  the newly imported field definitions, and the install dies with
+  `InvalidArgumentException: Field user_picture is unknown`.
+- `drupal_cms_installer` uninstalls itself at the end of installation and core
+  clears the `profile` key when the install profile is uninstalled, so the
+  exported `core.extension.yml` is profile-less. Nothing needs to strip it.
+
 ## Rebuilding from scratch
 
 Only do this if the fixture has genuinely rotted (for example, the constraint
 floor stops installing on a supported PHP version).
+
+Run these inside a drupdater image (`ghcr.io/drupdater/drupdater-php8.3`) so PHP
+and the composer environment match CI. Outside it, as root, export
+`COMPOSER_ALLOW_SUPERUSER=1` first -- without it composer silently disables
+every plugin, `composer/installers` never places the Drupal packages, and you
+get a broken tree from a command that still exits 0.
 
 ```bash
 composer create-project drupal/cms:2.0.0 test-drupal-cms --no-install
