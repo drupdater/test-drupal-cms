@@ -29,6 +29,8 @@
         "drupal/drupal_cms_google_analytics": "^2",
         "drupal/drupal_cms_seo_tools": "^2",
         "drupal/drupal_cms_starter": "^2",
+        "drupal/friendly_captcha_challenge": "^0.9",
+        "drupal/friendlycaptcha": "^1.1",
         "drupal/locale_deploy": "^1",
         "drupal/recipe_installer_kit": "^1.0.4",
         "drupal/webform": "@beta",
